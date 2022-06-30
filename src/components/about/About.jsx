@@ -1,5 +1,5 @@
 import "./About.css";
-import Me from "../../img/jet-newyork.jpeg";
+import Me from "../../img/ski.jpeg";
 import ResumeIcon from "../../img/resume-icon.png";
 import Resume from "../../img/Jet_Semrick_Resume.pdf";
 
@@ -13,13 +13,15 @@ const About = () => {
         </div>
       </div>
       <div className="a-right">
-        <h1 className="a-title">About Me</h1>
+        <h1 className="a-title">Qualifications & Skills</h1>
         <p className="a-sub">
           I have written code in C++, C, JavaScript, TypeScript, Python, and
-          Haskell. My best experience is in React App development and general
-          research.
+          Haskell. My best experience is in React App development and
+          economic/legal research.
         </p>
-        <p className="a-desc">My hobbies are playing basketball and smite.</p>
+        <p className="a-desc">
+          My hobbies are playing basketball and super smash brothers.
+        </p>
         <div className="a-resume">
           <a download="Jet_Semrick_Resume.pdf" href={Resume}>
             <img src={ResumeIcon} alt="" className="a-resume-img" />

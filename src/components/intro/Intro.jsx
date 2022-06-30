@@ -13,17 +13,16 @@ const Intro = () => {
               <div className="i-title-item">Computer Science</div>
               <div className="i-title-item">Debate</div>
               <div className="i-title-item">Research</div>
-              <div className="i-title-item">Finance</div>
+              <div className="i-title-item">Economics</div>
             </div>
           </div>
           <p className="i-desc">
             I am student at the{" "}
             <span style={{ fontWeight: "bold" }}>University of Kansas </span>
-            studying computer science and economics. I have interned at
-            <span style={{ fontWeight: "bold" }}> Northpoint Development</span>,
-            <span style={{ fontWeight: "bold" }}> C2FO</span>, and{" "}
-            <span style={{ fontWeight: "bold" }}>Wells Fargo</span>. Outside of
-            school I compete in and coach policy debate.
+            studying computer science and economics. This website has my
+            projects and debate interests.
+            {/* <span style={{ fontWeight: "bold" }}> Kansas City</span> and{" "} */}
+            {/* <span style={{ fontWeight: "bold" }}>New York</span>. I am */}
           </p>
         </div>
       </div>
