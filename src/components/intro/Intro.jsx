@@ -6,7 +6,7 @@ const Intro = () => {
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
-          <h2 className="i-intro">Hello, my name is</h2>
+          {/* <h2 className="i-intro">Hello, my name is</h2> */}
           <h1 className="i-name">Jet Semrick</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
@@ -20,7 +20,7 @@ const Intro = () => {
             I am student at the{" "}
             <span style={{ fontWeight: "bold" }}>University of Kansas </span>
             studying computer science and economics. This website has my
-            projects and debate interests.
+            projects, papers, and background.
             {/* <span style={{ fontWeight: "bold" }}> Kansas City</span> and{" "} */}
             {/* <span style={{ fontWeight: "bold" }}>New York</span>. I am */}
           </p>
@@ -29,7 +29,18 @@ const Intro = () => {
       <div className="i-right">
         {/* use bennetteely.com to use clip path */}
         <div className="i-bg"></div>
-        <img src={Me} alt="" className="i-img" />
+        {/* <img src={Me} alt="" className="i-img" /> */}
+        <div className="i-nav">
+          <div className="i-nav-item">
+            <a href="https://twitter.com/jetsemrick">Twitter</a>
+          </div>
+          <div className="i-nav-item">
+            <a href="https://www.linkedin.com/in/jetsemrick/">LinkedIn</a>
+          </div>
+          <div className="i-nav-item">
+            <a href="https://github.com/jetsemr">GitHub</a>
+          </div>
+        </div>
       </div>
     </div>
   );

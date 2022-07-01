@@ -13,14 +13,25 @@ const About = () => {
         </div>
       </div>
       <div className="a-right">
-        <h1 className="a-title">Qualifications & Skills</h1>
+        <h1 className="a-title">About</h1>
         <p className="a-sub">
-          I have written code in C++, C, JavaScript, TypeScript, Python, and
-          Haskell. My best experience is in React App development and
-          economic/legal research.
+          I am a software engineer, debater, researcher, and extremely
+          recreational athlete.
         </p>
         <p className="a-desc">
-          My hobbies are playing basketball and super smash brothers.
+          I have written code in C++, C, JavaScript, TypeScript, Python, and
+          Haskell. My best experience is in React app development.
+        </p>
+        <br></br>
+        <p className="a-desc">
+          I also do legal research and coach debate. I am proficient in
+          financial modeling, valuation, and basic accounting.
+        </p>
+        <br></br>
+        <p className="a-desc">
+          Currently I live in{" "}
+          <span style={{ fontWeight: "bold" }}>New York City</span>, but home
+          base is in <span style={{ fontWeight: "bold" }}>Kansas</span>.
         </p>
         <div className="a-resume">
           <a download="Jet_Semrick_Resume.pdf" href={Resume}>
