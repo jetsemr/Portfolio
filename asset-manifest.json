@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b26b05dd.chunk.css",
+    "main.js": "/static/js/main.0803c756.chunk.js",
+    "main.js.map": "/static/js/main.0803c756.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.519f8d6b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.519f8d6b.js.map",
+    "static/js/2.61e424d3.chunk.js": "/static/js/2.61e424d3.chunk.js",
+    "static/js/2.61e424d3.chunk.js.map": "/static/js/2.61e424d3.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b26b05dd.chunk.css.map": "/static/css/main.b26b05dd.chunk.css.map",
+    "static/js/2.61e424d3.chunk.js.LICENSE.txt": "/static/js/2.61e424d3.chunk.js.LICENSE.txt",
+    "static/media/Jet_Semrick_Resume.f3ca5e0a.pdf": "/static/media/Jet_Semrick_Resume.f3ca5e0a.pdf",
+    "static/media/jet.7eef809d.png": "/static/media/jet.7eef809d.png",
+    "static/media/resume-icon.c1cfbc81.png": "/static/media/resume-icon.c1cfbc81.png",
+    "static/media/ski.7b9e982a.jpeg": "/static/media/ski.7b9e982a.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.519f8d6b.js",
+    "static/js/2.61e424d3.chunk.js",
+    "static/css/main.b26b05dd.chunk.css",
+    "static/js/main.0803c756.chunk.js"
+  ]
+}
