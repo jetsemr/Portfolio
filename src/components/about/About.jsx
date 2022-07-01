@@ -33,6 +33,7 @@ const About = () => {
           <span style={{ fontWeight: "bold" }}>New York City</span>, but home
           base is in <span style={{ fontWeight: "bold" }}>Kansas</span>.
         </p>
+        {/*
         <div className="a-resume">
           <a download="Jet_Semrick_Resume.pdf" href={Resume}>
             <img src={ResumeIcon} alt="" className="a-resume-img" />
@@ -42,6 +43,7 @@ const About = () => {
             <p className="a-resume-desc">Last updated Fall 2021</p>
           </div>
         </div>
+        */}
       </div>
     </div>
   );
