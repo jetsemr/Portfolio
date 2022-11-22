@@ -1,12 +1,10 @@
 import "./Intro.css";
-import Me from "../../img/jet.png";
 
 const Intro = () => {
   return (
     <div className="i">
       <div className="i-left">
         <div className="i-left-wrapper">
-          {/* <h2 className="i-intro">Hello, my name is</h2> */}
           <h1 className="i-name">Jet Semrick</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
@@ -21,8 +19,6 @@ const Intro = () => {
             <span style={{ fontWeight: "bold" }}>University of Kansas </span>
             studying computer science and economics. This website has my
             projects, papers, and background.
-            {/* <span style={{ fontWeight: "bold" }}> Kansas City</span> and{" "} */}
-            {/* <span style={{ fontWeight: "bold" }}>New York</span>. I am */}
           </p>
         </div>
       </div>

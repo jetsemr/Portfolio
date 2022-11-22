@@ -3,12 +3,12 @@
   height: 40vh;
   margin: 20px 10px;
   border: 2px solid rgb(243, 242, 242);
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 10px 10px 10px;
   overflow: hidden;
 }
 
 .p-browser {
-  height: 20px;
+  height: 30px;
   background-color: rgb(243, 242, 242);
   display: flex;
   align-items: center;
@@ -29,8 +29,13 @@
 }
 
 .p-img {
-  width: 75%;
-  height: 75%;
-  margin-top: 20px;
+  width: 60%;
+  height: 60%;
+  margin-top: 30px;
   object-fit: scale-down;
+}
+
+.p-desc {
+  margin-top: 10px;
+  display: block;
 }
