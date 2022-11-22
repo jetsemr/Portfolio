@@ -1,4 +1,6 @@
 //@ts-ignore
+import connect4img from "./img/connect4.png";
+import calendarplusimg from "./img/calendarplus.png";
 export const projects = [
   {
     id: 1,
@@ -26,5 +28,20 @@ export const projects = [
       "https://docs.google.com/document/d/e/2PACX-1vTS5aMJX4QQ9TVID-gWZPIcar6eFkG44D5LZBhcobf3_Mu4s3U6q1ib0xdsE58AFnYrdmkh9OUPqjXq/pub",
     title: "Paper: Creative Destruction and Asteroid Mining",
     desc: "Economic research for the 2020 Vann Fellowship in Applied Economics."
+  },
+  {
+    id: 4,
+    img: connect4img,
+    link:
+      "https://people.eecs.ku.edu/~j939s316/eecs368-final-project/index.html",
+    title: "Project: Online Connect 4",
+    desc: "Final project for introductory JavaScript class."
+  },
+  {
+    id: 5,
+    img: calendarplusimg,
+    link: "",
+    title: "Project: Google Calendar Plus",
+    desc: "In development. Productivity extension for use with Google Calendar."
   }
 ];
