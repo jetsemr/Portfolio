@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.54bc6078.chunk.css",
-    "main.js": "/Portfolio/static/js/main.346bbb4e.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.346bbb4e.chunk.js.map",
+    "main.js": "/Portfolio/static/js/main.2a8aca4a.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.2a8aca4a.chunk.js.map",
     "runtime-main.js": "/Portfolio/static/js/runtime-main.c90d9582.js",
     "runtime-main.js.map": "/Portfolio/static/js/runtime-main.c90d9582.js.map",
     "static/js/2.b706c7af.chunk.js": "/Portfolio/static/js/2.b706c7af.chunk.js",
@@ -10,12 +10,13 @@
     "index.html": "/Portfolio/index.html",
     "static/css/main.54bc6078.chunk.css.map": "/Portfolio/static/css/main.54bc6078.chunk.css.map",
     "static/js/2.b706c7af.chunk.js.LICENSE.txt": "/Portfolio/static/js/2.b706c7af.chunk.js.LICENSE.txt",
+    "static/media/connect4.538fa0e8.png": "/Portfolio/static/media/connect4.538fa0e8.png",
     "static/media/jet-ski.7b9e982a.jpeg": "/Portfolio/static/media/jet-ski.7b9e982a.jpeg"
   },
   "entrypoints": [
     "static/js/runtime-main.c90d9582.js",
     "static/js/2.b706c7af.chunk.js",
     "static/css/main.54bc6078.chunk.css",
-    "static/js/main.346bbb4e.chunk.js"
+    "static/js/main.2a8aca4a.chunk.js"
   ]
 }
