@@ -1,6 +1,6 @@
 //@ts-ignore
-import connect4img from "./img/connect4.png";
-import calendarplusimg from "./img/calendarplus.png";
+import connect4 from "./img/connect4.png";
+import calculator from "./img/calculator.png";
 export const projects = [
   {
     id: 1,
@@ -14,7 +14,7 @@ export const projects = [
   {
     id: 2,
     img:
-      "https://www.investopedia.com/thmb/xybybxAaLPv1bsXTkXr740R4OO4=/3798x3798/smart/filters:no_upscale()/dotdash_Final_The_World_of_High_Frequency_Algorithmic_Trading_Feb_2020-01-d4ba1173134a489c973cc0fc418801e3.jpg",
+      "https://img.icons8.com/external-xnimrodx-blue-xnimrodx/240/null/external-stock-market-economy-xnimrodx-blue-xnimrodx.png",
     link:
       "https://docs.google.com/document/d/e/2PACX-1vSLIPVko2tWWIa1B-X_5xiX7favxzFCQHTADOQN0gGwdy4IVyw4QgzY6XRP44PSm1f8_uKxDSDJQn6Y/pub",
     title: "Paper: Market Effects of High Frequency Trading",
@@ -22,8 +22,7 @@ export const projects = [
   },
   {
     id: 3,
-    img:
-      "https://media.wired.com/photos/595461288e8cc150fa8ebb79/master/pass/hs-2006-14-f-hires_jpg.jpg",
+    img: "https://img.icons8.com/office/160/null/rocket.png",
     link:
       "https://docs.google.com/document/d/e/2PACX-1vTS5aMJX4QQ9TVID-gWZPIcar6eFkG44D5LZBhcobf3_Mu4s3U6q1ib0xdsE58AFnYrdmkh9OUPqjXq/pub",
     title: "Paper: Creative Destruction and Asteroid Mining",
@@ -31,7 +30,7 @@ export const projects = [
   },
   {
     id: 4,
-    img: connect4img,
+    img: connect4,
     link:
       "https://people.eecs.ku.edu/~j939s316/eecs368-final-project/index.html",
     title: "Project: Online Connect 4",
@@ -39,9 +38,16 @@ export const projects = [
   },
   {
     id: 5,
-    img: calendarplusimg,
+    img: "https://img.icons8.com/color/240/null/calendar--v1.png",
     link: "",
     title: "Project: Google Calendar Plus",
     desc: "In development. Productivity extension for use with Google Calendar."
+  },
+  {
+    id: 6,
+    img: calculator,
+    link: "https://jetsemr.github.io/Calculator/",
+    title: "Project: Calculator",
+    desc: "Calculator created in React."
   }
 ];
