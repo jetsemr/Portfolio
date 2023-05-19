@@ -1,7 +1,7 @@
 import React from 'react'
 
-function App() {
+function Navigation() {
   return <div className="App">Jet</div>
 }
 
-export default App
+export default Navigation
