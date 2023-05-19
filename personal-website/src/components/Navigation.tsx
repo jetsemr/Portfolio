@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Navigation() {
-  return <div className="App">Jet</div>
+  return <div className="text-lg">Jet</div>
 }
 
 export default Navigation
