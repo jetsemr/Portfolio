@@ -95,6 +95,13 @@ const awards: ResumeEntry[] = [
     content: <></>,
   },
   {
+    entity: "Dean's Scholarship",
+    date: 'August 2019',
+    location: 'Lawrence, KS',
+    title: 'University of Kansas School of Engineering',
+    content: <></>,
+  },
+  {
     entity: 'NCFL Policy Debate National Champion',
     date: 'May 2019',
     location: 'Milwaukee, WI',
@@ -102,6 +109,7 @@ const awards: ResumeEntry[] = [
     content: <></>,
   },
 ]
+
 const Resume = () => {
   console.log(education)
   return (
