@@ -3,7 +3,7 @@ import React from 'react'
 const Home = () => {
   return (
     <div className="absolute bg-slate-100 h-screen w-screen">
-      <div className="text-center content-center lg:mt-64 mt-36">
+      <div className="text-center content-center lg:mt-48 mt-36">
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
           Jet Semrick
         </h1>
