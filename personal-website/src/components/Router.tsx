@@ -5,12 +5,13 @@ import Navigation from './Navigation'
 import Home from '../routes/Home'
 import Projects from '../routes/Projects'
 import Blog from '../routes/Blog'
+import Resume from '../routes/Resume'
 
 const routes = [
   { name: 'Home', path: '/', element: <Home /> },
   { name: 'Projects', path: '/projects', element: <Projects /> },
   { name: 'Blog', path: '/blog', element: <Blog /> },
-  { name: 'Resume', path: 'resume', element: <div></div> },
+  { name: 'Resume', path: 'resume', element: <Resume /> },
 ]
 
 function Router() {
