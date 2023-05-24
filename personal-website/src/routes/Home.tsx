@@ -8,10 +8,10 @@ const Home = () => {
           Jet Semrick
         </h1>
         <p className="mt-6 text-lg leading-8 text-gray-600 md:w-1/3 w-9/12 m-auto">
-          Welcome. I am a software engineer, researcher, and recreational
-          athlete. I studied computer science and economics at the{' '}
+          I am a software engineer, researcher, and recreational athlete. I
+          studied computer science and economics at the{' '}
           <span className="font-bold">University of Kansas</span>. Over the
-          years I have lived in Kansas, Missouri, and New York.
+          years I have lived and worked in Kansas, Missouri, and New York.
           <br />
           <br />
           Focus areas: programming, sports, competitive debate, and finance.
