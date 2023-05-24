@@ -5,9 +5,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const routes = [
   { name: 'Home', href: '/' },
-  { name: 'Portfolio', href: '/portfolio' },
-  { name: 'Blog', href: '/blog' },
-  { name: 'Resume', href: '/resume' },
+  { name: 'Portfolio', href: '/#/portfolio' },
+  { name: 'Blog', href: '/#/blog' },
+  { name: 'Resume', href: '/#/resume' },
 ]
 
 function classNames(...classes: string[]) {

@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { HashRouter, Routes, Route } from 'react-router-dom'
 
 import Navigation from './Navigation'
 import Home from '../routes/Home'
@@ -11,12 +11,12 @@ const routes = [
   { name: 'Home', path: '/', element: <Home /> },
   { name: 'Portfolio', path: '/portfolio', element: <Projects /> },
   { name: 'Blog', path: '/blog', element: <Blog /> },
-  { name: 'Resume', path: 'resume', element: <Resume /> },
+  { name: 'Resume', path: '/resume', element: <Resume /> },
 ]
 
 function Router() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <div className="bg-slate-100">
         <Navigation />
         <Routes>
@@ -27,7 +27,7 @@ function Router() {
           })}
         </Routes>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   )
 }
 
