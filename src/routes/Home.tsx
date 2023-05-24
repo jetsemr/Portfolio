@@ -1,9 +1,13 @@
 import React from 'react'
+import profile from '../img/profile.png'
 
 const Home = () => {
   return (
-    <div className="absolute bg-slate-100 h-screen w-screen">
-      <div className="text-center content-center lg:mt-48 mt-36">
+    <div className="static h-screen w-screen">
+      <div className="m-auto mt-[80px] w-[300px] h-[300px] rounded-full overflow-hidden flex justify-center item-center">
+        <img src={profile} alt="" className="object-none"></img>
+      </div>
+      <div className="text-center content-center lg:mt-18 mt-9">
         <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
           Jet Semrick
         </h1>

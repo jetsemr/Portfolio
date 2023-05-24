@@ -3,7 +3,7 @@ import Project from './Project'
 
 const ProjectList = ({ projects }: Products) => {
   return (
-    <div className="m-auto w-[80%] flex flex-wrap justify-between">
+    <div className="m-auto w-[80%] flex flex-wrap lg:justify-between">
       {projects.map((item) => {
         console.log()
         return (

@@ -113,7 +113,7 @@ const awards: ResumeEntry[] = [
 const Resume = () => {
   console.log(education)
   return (
-    <div className="absolute bg-slate-100 max-h-max w-screen">
+    <div className="static h-max-h w-max-h">
       <div className="m-auto mt-5 w-1/2 text-center">
         <a
           href={ResumeDownload}

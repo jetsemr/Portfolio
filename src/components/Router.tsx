@@ -17,14 +17,16 @@ const routes = [
 function Router() {
   return (
     <BrowserRouter>
-      <Navigation />
-      <Routes>
-        {routes.map((item) => {
-          return (
-            <Route key={item.name} path={item.path} element={item.element} />
-          )
-        })}
-      </Routes>
+      <div className="bg-slate-100">
+        <Navigation />
+        <Routes>
+          {routes.map((item) => {
+            return (
+              <Route key={item.name} path={item.path} element={item.element} />
+            )
+          })}
+        </Routes>
+      </div>
     </BrowserRouter>
   )
 }

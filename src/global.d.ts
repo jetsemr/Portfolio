@@ -2,6 +2,7 @@ declare module '*.txt'
 declare module '*.html'
 declare module '*.pdf'
 declare module '*.png'
+declare module '*.jpeg'
 
 interface ResumeEntry {
   entity: string

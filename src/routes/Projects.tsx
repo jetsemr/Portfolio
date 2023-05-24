@@ -97,7 +97,7 @@ const papers: Products = {
 const Projects = () => {
   console.log(projects)
   return (
-    <div className="absolute bg-slate-100 max-h-max w-screen">
+    <div className="static h-max-h w-screen">
       <div className="mt-[10px] text-center text-3xl font-bold">Projects</div>
       <ProjectList projects={projects.projects} />
       <div className="mt-[10px] text-center text-3xl font-bold">Papers</div>

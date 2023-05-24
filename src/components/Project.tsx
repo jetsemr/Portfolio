@@ -3,8 +3,10 @@ import React from 'react'
 const Project = ({ name, img, url, code, description, date }: Product) => {
   console.log()
   return (
-    <div className="w-[30%] h-[40vh] mt-[20px] ml=[10px] mr-[10px] border-2 border-slate-300 rounded-md overflow-hidden">
-      <div className="h-[30px] bg-slate-300 text-center font-bold">{name}</div>
+    <div className="lg:w-[30%] w-[95%] md:h-[40vh] h-[50vh] mt-[20px] ml-[10px] mr-[10px] border-2 border-slate-300 rounded-md overflow-hidden">
+      <div className="h-[30px] bg-slate-300 text-center font-bold sm:text-sm">
+        {name}
+      </div>
       <img
         src={img}
         alt=""

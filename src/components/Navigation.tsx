@@ -41,8 +41,8 @@ function Navigation() {
           {/* mobile menu */}
           <div className="sm:hidden">
             <div
-              className={`sm:hidden absolute space-y-1 px-2 pb-3 pt-2 ${
-                open ? 'bg-slate-800 mt-10 w-72 drop-shadow-lg rounded-md' : ''
+              className={`absolute space-y-1 px-2 pb-3 pt-2 ${
+                open ? 'bg-slate-800 mt-10 w-72 drop-shadow-lg rounded-md ' : ''
               }`}
             >
               {routes.map((item) => {
