@@ -9,7 +9,7 @@ import Resume from '../routes/Resume'
 
 const routes = [
   { name: 'Home', path: '/', element: <Home /> },
-  { name: 'Projects', path: '/projects', element: <Projects /> },
+  { name: 'Portfolio', path: '/portfolio', element: <Projects /> },
   { name: 'Blog', path: '/blog', element: <Blog /> },
   { name: 'Resume', path: 'resume', element: <Resume /> },
 ]

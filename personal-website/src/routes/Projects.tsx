@@ -102,7 +102,7 @@ const Projects = () => {
       <ProjectList projects={projects.projects} />
       <div className="mt-[10px] text-center text-3xl font-bold">Papers</div>
       <ProjectList projects={papers.projects} />
-      <div className="text-center text-3xl font-bold">Debate</div>
+      {/* <div className="text-center text-3xl font-bold">Debate</div> */}
     </div>
   )
 }

@@ -5,7 +5,7 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const routes = [
   { name: 'Home', href: '/' },
-  { name: 'Projects', href: '/projects' },
+  { name: 'Portfolio', href: '/portfolio' },
   { name: 'Blog', href: '/blog' },
   { name: 'Resume', href: '/resume' },
 ]
