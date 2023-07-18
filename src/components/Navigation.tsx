@@ -3,12 +3,7 @@ import { useLocation } from 'react-router-dom'
 import { Disclosure } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
-const routes = [
-  { name: 'Home', href: '/' },
-  { name: 'Portfolio', href: '/#/portfolio' },
-  { name: 'Blog', href: '/#/blog' },
-  { name: 'Resume', href: '/#/resume' },
-]
+import { routes } from '../data/data'
 
 function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ')
