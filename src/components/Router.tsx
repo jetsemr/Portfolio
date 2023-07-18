@@ -2,6 +2,7 @@ import React from 'react'
 import { HashRouter, Routes, Route } from 'react-router-dom'
 
 import Navigation from './Navigation'
+import Footer from './Footer'
 import Home from '../routes/Home'
 import Projects from '../routes/Projects'
 import Blog from '../routes/Blog'
@@ -17,16 +18,15 @@ const routes = [
 function Router() {
   return (
     <HashRouter>
-      <div className="bg-slate-100">
-        <Navigation />
-        <Routes>
-          {routes.map((item) => {
-            return (
-              <Route key={item.name} path={item.path} element={item.element} />
-            )
-          })}
-        </Routes>
-      </div>
+      <Navigation />
+      <Routes>
+        {routes.map((item) => {
+          return (
+            <Route key={item.name} path={item.path} element={item.element} />
+          )
+        })}
+      </Routes>
+      <Footer />
     </HashRouter>
   )
 }
