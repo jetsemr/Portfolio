@@ -6,6 +6,8 @@ import './index.css'
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
   <React.StrictMode>
-    <Router />
+    <div className="overflow-y-hidden bg-slate-100">
+      <Router />
+    </div>
   </React.StrictMode>,
 )
