@@ -38,7 +38,7 @@ const Home = () => {
             Twitter
           </a>
           <a
-            href="https://github.com/jetsemr"
+            href="https://github.com/jetsemrick"
             target="_blank"
             rel="noreferrer"
             className="rounded-md bg-blue-400 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
