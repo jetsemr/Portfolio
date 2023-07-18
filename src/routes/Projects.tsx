@@ -95,12 +95,13 @@ const papers: Products = {
 }
 
 const Projects = () => {
-  console.log(projects)
   return (
     <div className="static h-max-h w-screen">
       <div className="mt-[10px] text-center text-3xl font-bold">Projects</div>
+      <hr className="m-auto border-2 w-1/2" />
       <ProjectList projects={projects.projects} />
       <div className="mt-[10px] text-center text-3xl font-bold">Papers</div>
+      <hr className="m-auto border-2 w-1/2" />
       <ProjectList projects={papers.projects} />
       {/* <div className="text-center text-3xl font-bold">Debate</div> */}
     </div>

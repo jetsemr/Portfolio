@@ -49,6 +49,7 @@ function Navigation() {
                       className={classNames(
                         (currentPath.includes(item.href) &&
                           item.href !== '/') ||
+                          '/#' + currentPath === item.href ||
                           (currentPath === '/' && item.href === '/')
                           ? 'bg-gray-900 text-white'
                           : 'text-gray-300 hover:bg-gray-700 hover:text-white',
@@ -88,6 +89,7 @@ function Navigation() {
                     href={item.href}
                     className={classNames(
                       (currentPath.includes(item.href) && item.href !== '/') ||
+                        '/#' + currentPath === item.href ||
                         (currentPath === '/' && item.href === '/')
                         ? 'bg-gray-900 text-white'
                         : 'text-gray-300 hover:bg-gray-700 hover:text-white',
