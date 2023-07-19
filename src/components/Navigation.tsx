@@ -41,7 +41,7 @@ function Navigation() {
               }`}
             >
               {routes.map((item) => {
-                if (open === true) {
+                if (open === true && item.nav === true) {
                   return (
                     <a
                       key={item.name}
@@ -83,25 +83,31 @@ function Navigation() {
             </div> */}
             <div className="hidden sm:ml-6 sm:block">
               <div className="flex space-x-4">
-                {routes.map((item) => (
-                  <a
-                    key={item.name}
-                    href={item.href}
-                    className={classNames(
-                      (currentPath.includes(item.href) && item.href !== '/') ||
-                        '/#' + currentPath === item.href ||
-                        (currentPath === '/' && item.href === '/')
-                        ? 'bg-gray-900 text-white'
-                        : 'text-gray-300 hover:bg-gray-700 hover:text-white',
-                      'rounded-md px-3 py-2 text-sm font-medium',
-                    )}
-                    aria-current={
-                      currentPath.includes(item.href) ? 'page' : undefined
-                    }
-                  >
-                    {item.name}
-                  </a>
-                ))}
+                {routes.map((item) => {
+                  if (item.nav === true) {
+                    return (
+                      <a
+                        key={item.name}
+                        href={item.href}
+                        className={classNames(
+                          (currentPath.includes(item.href) &&
+                            item.href !== '/') ||
+                            '/#' + currentPath === item.href ||
+                            (currentPath === '/' && item.href === '/')
+                            ? 'bg-gray-900 text-white'
+                            : 'text-gray-300 hover:bg-gray-700 hover:text-white',
+                          'rounded-md px-3 py-2 text-sm font-medium',
+                        )}
+                        aria-current={
+                          currentPath.includes(item.href) ? 'page' : undefined
+                        }
+                      >
+                        {item.name}
+                      </a>
+                    )
+                  }
+                  return <></>
+                })}
               </div>
             </div>
           </div>
