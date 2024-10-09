@@ -14,7 +14,6 @@ interface ResumeEntry {
 
 interface Product {
   name: string
-  img: string
   url?: string
   code?: string
   description: string

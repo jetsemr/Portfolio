@@ -2,7 +2,6 @@ import React from 'react'
 import Home from '../routes/Home'
 import Projects from '../routes/Projects'
 import Blog from '../routes/Blog'
-import Resume from '../routes/Resume'
 
 import { posts } from './posts'
 import Post from '../components/Post'
@@ -24,11 +23,12 @@ export const routes = [
     nav: true,
   },
   {
-    name: 'Resume',
-    href: '/#/resume',
-    path: '/resume',
-    element: <Resume />,
+    name: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/jetsemrick', // Replace with your LinkedIn profile link
+    element: <div></div>,
     nav: true,
+    target: '_blank', // Ensures the link opens in a new tab
+    rel: 'noopener noreferrer', // Provides security against reverse tabnabbing
   },
   {
     name: 'post1',
@@ -39,6 +39,7 @@ export const routes = [
         id={posts[0].id}
         title={posts[0].title}
         author={posts[0].author}
+        subheader={posts[0].subheader}
         date={posts[0].date}
       />
     ),

@@ -1,30 +1,37 @@
 import React from 'react'
-
 import { posts } from '../data/posts'
 
 const AllPosts = () => {
   return (
-    <div className="mt-5">
-      <div className="mt-[10px] text-center text-3xl font-bold">Posts</div>
-      <hr className="m-auto border-2 w-1/4" />
-      {posts.map((item) => {
-        return (
-          <div
+    <div className="mt-10 max-w-6xl mx-auto px-4">
+      <h2 className="text-center text-4xl font-bold text-gray-800 mb-6">
+        Posts
+      </h2>
+      <hr className="m-auto mb-8 border-2 w-1/2" />
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {posts.map((item) => (
+          <a
             key={item.id}
-            className="m-auto mt-5 h-20 sm:w-1/4 w-3/4 bg-slate-300 rounded-md"
+            href={`#/posts/${item.id}`}
+            className="block"
+            rel="noreferrer"
+            target="_self"
           >
-            <div className="text-gray-600">{item.title}</div>
-            <div className="text-xs font-light">{item.date}</div>
-            <a
-              href={'#/posts/' + item.id}
-              rel="noreferrer"
-              className="rounded-md bg-blue-400 px-2.5 py-1.5 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-            >
-              View Post
-            </a>
-          </div>
-        )
-      })}
+            <div className="bg-white shadow-lg rounded-lg p-5 transition-transform transform hover:scale-105 hover:shadow-xl">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+                {item.title}
+              </h3>
+              <div className="text-xs text-gray-500 mb-4">
+                {item.author} | {item.date}
+              </div>
+              <p className="text-xs font-light text-gray-600 mb-1 text-left">
+                {' '}
+                {item.subheader}
+              </p>
+            </div>
+          </a>
+        ))}
+      </div>
     </div>
   )
 }
