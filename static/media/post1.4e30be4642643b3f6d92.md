@@ -1,4 +1,4 @@
-After graduating from the University of Kansas in 2023, my college roommates and I spent one month traveling together in Japan and South Korea. We celebrated the past four years before a send off to a new chapter in our lives. Our travels were defined by unforgiving chairs in budget airline terminals, AirBnbs that met bare minimums for accommodations, conversations over absurd hypotheticals, unpredictable roaming, Yi Sun-sin war stories, and too much time spent in convenience stores.
+[Kansas City, MO] After graduating from the University of Kansas in 2023, my college roommates and I spent one month traveling together in Japan and South Korea. We celebrated the past four years before a send off to a new chapter in our lives. Our travels were defined by unforgiving chairs in budget airline terminals, AirBnbs that met bare minimums for accommodations, conversations over absurd hypotheticals, unpredictable roaming, Yi Sun-sin war stories, and too much time spent in convenience stores.
 
 TLDR: Went to Asia, did some things and had fun. Order of the trip: Seoul, Jeju, Busan, Yakushima, Kyoto, Tokyo.
 
