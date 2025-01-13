@@ -16,7 +16,7 @@ const Home = () => {
           Jet Semrick
         </h1>
         <p className="mt-6 text-lg leading-8 text-gray-600 md:w-1/3 w-9/12 m-auto">
-          Master's student in operations research and information engineering at{' '}
+          Graduate student in operations research and information engineering at{' '}
           <span className="font-bold">Cornell University</span> and debate coach
           at Taipei American School.
           <br />
