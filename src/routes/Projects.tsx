@@ -15,7 +15,7 @@ const projects: Products = {
 
 const Projects = () => {
   return (
-    <div className="static h-screen w-screen">
+    <div className="min-h-screen w-full bg-[#f5f1eb]">
       <ProjectList projects={projects.projects} />
     </div>
   )
