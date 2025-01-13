@@ -4,10 +4,14 @@ import profile from '../img/profile.png'
 const Home = () => {
   return (
     <div className="static h-screen w-screen">
-      <div className="m-auto mt-[80px] w-[300px] h-[300px] rounded-full overflow-hidden flex justify-center item-center">
-        <img src={profile} alt="" className="w-full h-full object-cover"></img>
+      <div className="m-auto mt-[80px] w-[300px] h-[300px] rounded-full overflow-hidden">
+        <img 
+          src={profile} 
+          alt="Jet Semrick" 
+          className="w-full h-full object-cover object-top translate-y"
+        ></img>
       </div>
-      <div className="text-center ontent-center lg:mt-18 mt-9">
+      <div className="text-center content-center lg:mt-18 mt-9">
         <h1 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
           Jet Semrick
         </h1>
@@ -21,7 +25,7 @@ const Home = () => {
           <span className="font-bold">University of Kansas</span>.
           <br />
           <br />
-          Interests: machine learning, quantitative trading, software
+          Interests: artificial intelligence, quantitative trading, software
           engineering, sports, and policy debate.
         </p>
       </div>
