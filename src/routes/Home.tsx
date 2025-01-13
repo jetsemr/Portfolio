@@ -1,33 +1,45 @@
 import React from 'react'
 import profile from '../img/profile.png'
+import Tag from '../components/Tag'
+
+const interests = [
+  "Artificial Intelligence",
+  "Quantitative Trading",
+  "Software Engineering",
+  "Sports",
+  "Policy Debate"
+];
 
 const Home = () => {
   return (
-    <div className="static h-screen w-screen">
-      <div className="m-auto mt-[80px] w-[300px] h-[300px] rounded-full overflow-hidden">
-        <img 
-          src={profile} 
-          alt="Jet Semrick" 
-          className="w-full h-full object-cover object-top translate-y"
-        ></img>
-      </div>
-      <div className="text-center content-center lg:mt-18 mt-9">
-        <h1 className="text-center text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-          Jet Semrick
-        </h1>
-        <p className="mt-6 text-lg leading-8 text-gray-600 md:w-1/3 w-9/12 m-auto">
-          Graduate student in operations research and information engineering at{' '}
-          <span className="font-bold">Cornell University</span> and debate coach
-          at Taipei American School.
-          <br />
-          <br />I am based in New York City, but am sometimes in Taipei and
-          Kansas City. Undergrad in CS and economics at the{' '}
-          <span className="font-bold">University of Kansas</span>.
-          <br />
-          <br />
-          Interests: artificial intelligence, quantitative trading, software
-          engineering, sports, and policy debate.
-        </p>
+    <div className="min-h-screen w-full flex items-center justify-center py-8 -mt-16 bg-[#f5f1eb]">
+      <div className="container mx-auto px-6">
+        <div className="flex flex-col md:flex-row max-w-4xl gap-12 items-center mx-auto">
+          <div className="w-[400px] h-[400px] rounded-lg overflow-hidden flex-shrink-0 bg-white shadow-md">
+            <img 
+              src={profile} 
+              alt="Jet Semrick" 
+              className="w-full h-full object-cover object-top"
+            />
+          </div>
+          <div className="text-center md:text-left flex-1">
+            <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
+              Jet Semrick
+            </h1>
+            <p className="mt-6 text-lg leading-8 text-gray-600">
+              Graduate student at{' '}
+              <span className="font-bold">Cornell University</span> and debate coach
+              at <span className="font-bold">Taipei American School</span>. I am based in New York City, but lived in Taipei and
+              Kansas City. Undergrad at the{' '}
+              <span className="font-bold">University of Kansas</span>.
+            </p>
+            <div className="mt-6">
+              {interests.map((interest) => (
+                <Tag key={interest} text={interest} />
+              ))}
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   )
