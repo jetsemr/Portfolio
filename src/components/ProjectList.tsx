@@ -25,7 +25,7 @@ const ProjectList = ({ projects }: Products) => {
                 href={item.code}
                 target="_blank"
                 rel="noreferrer"
-                className="mt-3 inline-block rounded-md bg-blue-400 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-blue-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                className="mt-3 inline-block bg-[#e2e8f0] hover:bg-[#cbd5e1] transition-colors rounded-md px-4 py-2 text-sm font-medium text-gray-900 shadow-sm"
               >
                 View Code
               </a>
