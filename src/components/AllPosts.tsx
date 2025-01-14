@@ -13,21 +13,35 @@ const AllPosts = () => {
           <a
             key={item.id}
             href={`#/posts/${item.id}`}
-            className="block"
+            className="block group h-full"
             rel="noreferrer"
             target="_self"
           >
-            <div className="bg-white shadow-lg rounded-lg p-5 transition-transform transform hover:scale-105 hover:shadow-xl">
-              <h3 className="text-xl font-semibold text-gray-700 mb-2">
+            <div className="bg-white shadow-lg rounded-lg p-5 transition-transform transform hover:scale-105 hover:shadow-xl h-[160px] flex flex-col">
+              <h3 className="text-xl font-semibold text-gray-700 mb-2 line-clamp-2">
                 {item.title}
               </h3>
-              <div className="text-xs text-gray-500 mb-4">
-                {item.author} | {item.date}
-              </div>
-              <p className="text-xs font-light text-gray-600 mb-1 text-left">
-                {' '}
+              <p className="text-xs font-light text-gray-600 mb-3 text-left line-clamp-3 flex-grow">
                 {item.subheader}
               </p>
+              <div className="mt-auto">
+                <span className="inline-flex items-center text-sm font-medium text-[#475569] group-hover:text-[#334155]">
+                  Read more
+                  <svg
+                    className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1"
+                    fill="none"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth={2}
+                      d="M9 5l7 7-7 7"
+                    />
+                  </svg>
+                </span>
+              </div>
             </div>
           </a>
         ))}

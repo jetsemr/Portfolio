@@ -45,4 +45,19 @@ export const routes = [
     ),
     nav: false,
   },
+  {
+    name: 'post2',
+    href: '/#/posts/post2',
+    path: '/posts/post2',
+    element: (
+      <Post
+        id={posts[1].id}
+        title={posts[1].title}
+        author={posts[1].author}
+        subheader={posts[1].subheader}
+        date={posts[1].date}
+      />
+    ),
+    nav: false,
+  },
 ]
