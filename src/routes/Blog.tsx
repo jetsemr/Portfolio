@@ -4,7 +4,7 @@ import AllPosts from '../components/AllPosts'
 
 const Blog = () => {
   return (
-    <div className="static h-screen w-screen text-center">
+    <div className="min-h-screen w-full bg-[#f5f1eb] text-center">
       <div className="text-lg font-bold">
         <AllPosts />
       </div>
